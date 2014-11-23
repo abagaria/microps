@@ -1,0 +1,29 @@
+Quartus II Archive log --	H:/lab7_mps/lab7/vga/vgacam_tmp_archive.qarlog
+
+Archive:	H:/lab7_mps/lab7/vga/vgacam_tmp_archive.qar
+Date:		Sat Nov 22 20:30:20 2014
+Quartus II 32-bit		12.0 Build 178 05/31/2012 SJ Web Edition
+
+	=========== Files Selected: ===========
+H:/lab7_mps/lab7/vga/charrom.txt
+H:/lab7_mps/lab7/vga/finalcamera.sv
+H:/lab7_mps/lab7/vga/incremental_db/compiled_partitions/vgacam.db_info
+H:/lab7_mps/lab7/vga/pll.ppf
+H:/lab7_mps/lab7/vga/pll.qip
+H:/lab7_mps/lab7/vga/pll.v
+H:/lab7_mps/lab7/vga/pll_bb.v
+H:/lab7_mps/lab7/vga/pll_inst.v
+H:/lab7_mps/lab7/vga/vga.sv
+H:/lab7_mps/lab7/vga/vgacam.qpf
+H:/lab7_mps/lab7/vga/vgacam.qsf
+c:/altera/12.0/quartus/bin/assignment_defaults.qdf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sat Nov 22 20:30:23 2014
+Source archive file:	H:/lab7_mps/lab7/vga/vgacam_tmp_archive.qar
+Archive was extracted into	H:/lab7_mps/terribleHardware/
+		 - successfully.

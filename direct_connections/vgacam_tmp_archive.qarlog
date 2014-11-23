@@ -1,0 +1,29 @@
+Quartus II Archive log --	H:/lab7_mps/direct_connections/vgacam_tmp_archive.qarlog
+
+Archive:	H:/lab7_mps/direct_connections/vgacam_tmp_archive.qar
+Date:		Sat Nov 22 01:36:53 2014
+Quartus II 32-bit		12.0 Build 178 05/31/2012 SJ Web Edition
+
+	=========== Files Selected: ===========
+H:/lab7_mps/direct_connections/assignment_defaults.qdf
+H:/lab7_mps/direct_connections/charrom.txt
+H:/lab7_mps/direct_connections/finalcamera.sv
+H:/lab7_mps/direct_connections/incremental_db/compiled_partitions/vgacam.db_info
+H:/lab7_mps/direct_connections/pll.ppf
+H:/lab7_mps/direct_connections/pll.qip
+H:/lab7_mps/direct_connections/pll.v
+H:/lab7_mps/direct_connections/pll_bb.v
+H:/lab7_mps/direct_connections/pll_inst.v
+H:/lab7_mps/direct_connections/vga.sv
+H:/lab7_mps/direct_connections/vgacam.qpf
+H:/lab7_mps/direct_connections/vgacam.qsf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sat Nov 22 01:36:55 2014
+Source archive file:	H:/lab7_mps/direct_connections/vgacam_tmp_archive.qar
+Archive was extracted into	H:/lab7_mps/fullframeArray/
+		 - successfully.

@@ -7,7 +7,7 @@ void initTimers(void);
 
 void main(void) {
 	unsigned short duration;
-	duration = 1;
+	duration = 2;
 	TRISF = 0; // Use PORTF for output
 	initTimers(); // Set up Timer1
 	TMR1 = 0;

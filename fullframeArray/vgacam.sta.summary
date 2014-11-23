@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'final_project_fpga:final_project_fpga|xyCoord:xyCoord|hcnt[0]'
+Slack : -3.736
+TNS   : -3000.964
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -0.467
+TNS   : -1.220
+
+Type  : Slow 1200mV 85C Model Setup 'vgapll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 35.307
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'final_project_fpga:final_project_fpga|xyCoord:xyCoord|hcnt[0]'
+Slack : -1.063
+TNS   : -193.632
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -0.510
+TNS   : -2.424
+
+Type  : Slow 1200mV 85C Model Hold 'vgapll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'final_project_fpga:final_project_fpga|xyCoord:xyCoord|hcnt[0]'
+Slack : -1.522
+TNS   : -1817.698
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : 12.160
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vgapll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.572
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'final_project_fpga:final_project_fpga|xyCoord:xyCoord|hcnt[0]'
+Slack : -3.642
+TNS   : -2965.143
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -0.455
+TNS   : -0.931
+
+Type  : Slow 1200mV 0C Model Setup 'vgapll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 35.628
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'final_project_fpga:final_project_fpga|xyCoord:xyCoord|hcnt[0]'
+Slack : -0.958
+TNS   : -171.015
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -0.545
+TNS   : -2.930
+
+Type  : Slow 1200mV 0C Model Hold 'vgapll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.709
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'final_project_fpga:final_project_fpga|xyCoord:xyCoord|hcnt[0]'
+Slack : -1.463
+TNS   : -1749.780
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 12.069
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vgapll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.571
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'final_project_fpga:final_project_fpga|xyCoord:xyCoord|hcnt[0]'
+Slack : -1.077
+TNS   : -584.478
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : 0.089
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'vgapll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 37.706
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'final_project_fpga:final_project_fpga|xyCoord:xyCoord|hcnt[0]'
+Slack : -0.598
+TNS   : -137.529
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.353
+TNS   : -2.125
+
+Type  : Fast 1200mV 0C Model Hold 'vgapll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'final_project_fpga:final_project_fpga|xyCoord:xyCoord|hcnt[0]'
+Slack : -0.439
+TNS   : -317.831
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 11.938
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vgapll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.649
+TNS   : 0.000
+
+------------------------------------------------------------

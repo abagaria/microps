@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Nov 22 00:43:25 2014
+Quartus II 32-bit Version : 12.0 Build 178 05/31/2012 SJ Web Edition
+Revision Name : vgacam
+Top-level Entity Name : vgacam
+Family : Cyclone III
+Total logic elements : 72
+    Total combinational functions : 52
+    Dedicated logic registers : 42
+Total registers : 42
+Total pins : 40
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
