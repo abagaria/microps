@@ -1,5 +1,5 @@
 Analysis & Synthesis report for vgacam
-Wed Dec 03 00:37:25 2014
+Fri Dec 05 01:15:34 2014
 Quartus II 32-bit Version 12.0 Build 178 05/31/2012 SJ Web Edition
 
 
@@ -56,16 +56,16 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +------------------------------------+------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Dec 03 00:37:25 2014    ;
+; Analysis & Synthesis Status        ; Successful - Fri Dec 05 01:15:34 2014    ;
 ; Quartus II 32-bit Version          ; 12.0 Build 178 05/31/2012 SJ Web Edition ;
 ; Revision Name                      ; vgacam                                   ;
 ; Top-level Entity Name              ; vgacam                                   ;
 ; Family                             ; Cyclone III                              ;
-; Total logic elements               ; 165                                      ;
-;     Total combinational functions  ; 146                                      ;
-;     Dedicated logic registers      ; 67                                       ;
-; Total registers                    ; 67                                       ;
-; Total pins                         ; 48                                       ;
+; Total logic elements               ; 167                                      ;
+;     Total combinational functions  ; 148                                      ;
+;     Dedicated logic registers      ; 69                                       ;
+; Total registers                    ; 69                                       ;
+; Total pins                         ; 50                                       ;
 ; Total virtual pins                 ; 0                                        ;
 ; Total memory bits                  ; 262,144                                  ;
 ; Embedded Multiplier 9-bit elements ; 0                                        ;
@@ -181,16 +181,16 @@ applicable agreement for further details.
 +----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                         ; Library ;
 +----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------+---------+
-; finalcamera.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/aschiller/Desktop/ram_vga3/finalcamera.sv                   ;         ;
-; vga.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/aschiller/Desktop/ram_vga3/vga.sv                           ;         ;
-; pll.v                            ; yes             ; User Wizard-Generated File   ; C:/Users/aschiller/Desktop/ram_vga3/pll.v                            ;         ;
-; RAM.v                            ; yes             ; User Wizard-Generated File   ; C:/Users/aschiller/Desktop/ram_vga3/RAM.v                            ;         ;
+; finalcamera.sv                   ; yes             ; User SystemVerilog HDL File  ; H:/microps_final_project/microps/ram_vgaCool/finalcamera.sv          ;         ;
+; vga.sv                           ; yes             ; User SystemVerilog HDL File  ; H:/microps_final_project/microps/ram_vgaCool/vga.sv                  ;         ;
+; pll.v                            ; yes             ; User Wizard-Generated File   ; H:/microps_final_project/microps/ram_vgaCool/pll.v                   ;         ;
+; RAM.v                            ; yes             ; User Wizard-Generated File   ; H:/microps_final_project/microps/ram_vgaCool/RAM.v                   ;         ;
 ; altpll.tdf                       ; yes             ; Megafunction                 ; c:/altera/12.0/quartus/libraries/megafunctions/altpll.tdf            ;         ;
 ; aglobal120.inc                   ; yes             ; Megafunction                 ; c:/altera/12.0/quartus/libraries/megafunctions/aglobal120.inc        ;         ;
 ; stratix_pll.inc                  ; yes             ; Megafunction                 ; c:/altera/12.0/quartus/libraries/megafunctions/stratix_pll.inc       ;         ;
 ; stratixii_pll.inc                ; yes             ; Megafunction                 ; c:/altera/12.0/quartus/libraries/megafunctions/stratixii_pll.inc     ;         ;
 ; cycloneii_pll.inc                ; yes             ; Megafunction                 ; c:/altera/12.0/quartus/libraries/megafunctions/cycloneii_pll.inc     ;         ;
-; db/pll_altpll.v                  ; yes             ; Auto-Generated Megafunction  ; C:/Users/aschiller/Desktop/ram_vga3/db/pll_altpll.v                  ;         ;
+; db/pll_altpll.v                  ; yes             ; Auto-Generated Megafunction  ; H:/microps_final_project/microps/ram_vgaCool/db/pll_altpll.v         ;         ;
 ; altsyncram.tdf                   ; yes             ; Megafunction                 ; c:/altera/12.0/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
 ; stratix_ram_block.inc            ; yes             ; Megafunction                 ; c:/altera/12.0/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
 ; lpm_mux.inc                      ; yes             ; Megafunction                 ; c:/altera/12.0/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
@@ -199,9 +199,9 @@ applicable agreement for further details.
 ; altrom.inc                       ; yes             ; Megafunction                 ; c:/altera/12.0/quartus/libraries/megafunctions/altrom.inc            ;         ;
 ; altram.inc                       ; yes             ; Megafunction                 ; c:/altera/12.0/quartus/libraries/megafunctions/altram.inc            ;         ;
 ; altdpram.inc                     ; yes             ; Megafunction                 ; c:/altera/12.0/quartus/libraries/megafunctions/altdpram.inc          ;         ;
-; db/altsyncram_mnm1.tdf           ; yes             ; Auto-Generated Megafunction  ; C:/Users/aschiller/Desktop/ram_vga3/db/altsyncram_mnm1.tdf           ;         ;
-; db/decode_dra.tdf                ; yes             ; Auto-Generated Megafunction  ; C:/Users/aschiller/Desktop/ram_vga3/db/decode_dra.tdf                ;         ;
-; db/mux_cnb.tdf                   ; yes             ; Auto-Generated Megafunction  ; C:/Users/aschiller/Desktop/ram_vga3/db/mux_cnb.tdf                   ;         ;
+; db/altsyncram_mnm1.tdf           ; yes             ; Auto-Generated Megafunction  ; H:/microps_final_project/microps/ram_vgaCool/db/altsyncram_mnm1.tdf  ;         ;
+; db/decode_dra.tdf                ; yes             ; Auto-Generated Megafunction  ; H:/microps_final_project/microps/ram_vgaCool/db/decode_dra.tdf       ;         ;
+; db/mux_cnb.tdf                   ; yes             ; Auto-Generated Megafunction  ; H:/microps_final_project/microps/ram_vgaCool/db/mux_cnb.tdf          ;         ;
 +----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------+---------+
 
 
@@ -210,31 +210,31 @@ applicable agreement for further details.
 +---------------------------------------------+------------------------------+
 ; Resource                                    ; Usage                        ;
 +---------------------------------------------+------------------------------+
-; Estimated Total logic elements              ; 165                          ;
+; Estimated Total logic elements              ; 167                          ;
 ;                                             ;                              ;
-; Total combinational functions               ; 146                          ;
+; Total combinational functions               ; 148                          ;
 ; Logic element usage by number of LUT inputs ;                              ;
 ;     -- 4 input functions                    ; 50                           ;
 ;     -- 3 input functions                    ; 11                           ;
-;     -- <=2 input functions                  ; 85                           ;
+;     -- <=2 input functions                  ; 87                           ;
 ;                                             ;                              ;
 ; Logic elements by mode                      ;                              ;
-;     -- normal mode                          ; 100                          ;
+;     -- normal mode                          ; 102                          ;
 ;     -- arithmetic mode                      ; 46                           ;
 ;                                             ;                              ;
-; Total registers                             ; 67                           ;
-;     -- Dedicated logic registers            ; 67                           ;
+; Total registers                             ; 69                           ;
+;     -- Dedicated logic registers            ; 69                           ;
 ;     -- I/O registers                        ; 0                            ;
 ;                                             ;                              ;
-; I/O pins                                    ; 48                           ;
+; I/O pins                                    ; 50                           ;
 ; Total memory bits                           ; 262144                       ;
 ; Total PLLs                                  ; 1                            ;
 ;     -- PLLs                                 ; 1                            ;
 ;                                             ;                              ;
 ; Maximum fan-out node                        ; vgaController:vgaCont|rden~5 ;
 ; Maximum fan-out                             ; 62                           ;
-; Total fan-out                               ; 1720                         ;
-; Average fan-out                             ; 5.03                         ;
+; Total fan-out                               ; 1729                         ;
+; Average fan-out                             ; 4.94                         ;
 +---------------------------------------------+------------------------------+
 
 
@@ -243,14 +243,14 @@ applicable agreement for further details.
 +--------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                 ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                          ; Library Name ;
 +--------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------+--------------+
-; |vgacam                                    ; 146 (0)           ; 67 (0)       ; 262144      ; 0            ; 0       ; 0         ; 48   ; 0            ; |vgacam                                                                                                      ;              ;
+; |vgacam                                    ; 148 (0)           ; 69 (0)       ; 262144      ; 0            ; 0       ; 0         ; 50   ; 0            ; |vgacam                                                                                                      ;              ;
 ;    |RAM:RAM_inst|                          ; 22 (0)            ; 5 (0)        ; 262144      ; 0            ; 0       ; 0         ; 0    ; 0            ; |vgacam|RAM:RAM_inst                                                                                         ;              ;
 ;       |altsyncram:altsyncram_component|    ; 22 (0)            ; 5 (0)        ; 262144      ; 0            ; 0       ; 0         ; 0    ; 0            ; |vgacam|RAM:RAM_inst|altsyncram:altsyncram_component                                                         ;              ;
 ;          |altsyncram_mnm1:auto_generated|  ; 22 (0)            ; 5 (5)        ; 262144      ; 0            ; 0       ; 0         ; 0    ; 0            ; |vgacam|RAM:RAM_inst|altsyncram:altsyncram_component|altsyncram_mnm1:auto_generated                          ;              ;
 ;             |decode_dra:decode2|           ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vgacam|RAM:RAM_inst|altsyncram:altsyncram_component|altsyncram_mnm1:auto_generated|decode_dra:decode2       ;              ;
 ;             |decode_dra:rden_decode_b|     ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vgacam|RAM:RAM_inst|altsyncram:altsyncram_component|altsyncram_mnm1:auto_generated|decode_dra:rden_decode_b ;              ;
 ;             |mux_cnb:mux3|                 ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vgacam|RAM:RAM_inst|altsyncram:altsyncram_component|altsyncram_mnm1:auto_generated|mux_cnb:mux3             ;              ;
-;    |final_project_fpga:final_project_fpga| ; 47 (2)            ; 41 (2)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vgacam|final_project_fpga:final_project_fpga                                                                ;              ;
+;    |final_project_fpga:final_project_fpga| ; 49 (4)            ; 43 (4)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vgacam|final_project_fpga:final_project_fpga                                                                ;              ;
 ;       |camera_controller:cam_cont|         ; 42 (42)           ; 22 (22)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vgacam|final_project_fpga:final_project_fpga|camera_controller:cam_cont                                     ;              ;
 ;       |read_y_cr_cb:read_y_cr_cb|          ; 3 (3)             ; 17 (17)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vgacam|final_project_fpga:final_project_fpga|read_y_cr_cb:read_y_cr_cb                                      ;              ;
 ;    |pll:vgapll|                            ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vgacam|pll:vgapll                                                                                           ;              ;
@@ -272,15 +272,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 The IP Core highlighted in red is outdated. Regenerate the outdated IP with the current version of the Quartus II software and the MegaWizard interface.
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                            ;
-+--------+--------------+---------+--------------+--------------+----------------------+-------------------------------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance      ; IP Include File                           ;
-+--------+--------------+---------+--------------+--------------+----------------------+-------------------------------------------+
-; Altera ; RAM: 2-PORT  ; 11.0    ; N/A          ; N/A          ; |vgacam|RAM:RAM_inst ; C:/Users/aschiller/Desktop/ram_vga3/RAM.v ;
-; Altera ; ALTPLL       ; 12.0    ; N/A          ; N/A          ; |vgacam|pll:pll_inst ; C:/Users/aschiller/Desktop/ram_vga3/pll.v ;
-; Altera ; ALTPLL       ; 12.0    ; N/A          ; N/A          ; |vgacam|pll:vgapll   ; C:/Users/aschiller/Desktop/ram_vga3/pll.v ;
-+--------+--------------+---------+--------------+--------------+----------------------+-------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                     ;
++--------+--------------+---------+--------------+--------------+----------------------+----------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance      ; IP Include File                                    ;
++--------+--------------+---------+--------------+--------------+----------------------+----------------------------------------------------+
+; Altera ; RAM: 2-PORT  ; 11.0    ; N/A          ; N/A          ; |vgacam|RAM:RAM_inst ; H:/microps_final_project/microps/ram_vgaCool/RAM.v ;
+; Altera ; ALTPLL       ; 12.0    ; N/A          ; N/A          ; |vgacam|pll:pll_inst ; H:/microps_final_project/microps/ram_vgaCool/pll.v ;
+; Altera ; ALTPLL       ; 12.0    ; N/A          ; N/A          ; |vgacam|pll:vgapll   ; H:/microps_final_project/microps/ram_vgaCool/pll.v ;
++--------+--------------+---------+--------------+--------------+----------------------+----------------------------------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------+
@@ -288,10 +288,11 @@ The IP Core highlighted in red is outdated. Regenerate the outdated IP with the 
 +------------------------------------------------------------------------------+----------------------------------------+
 ; Register name                                                                ; Reason for Removal                     ;
 +------------------------------------------------------------------------------+----------------------------------------+
+; final_project_fpga:final_project_fpga|counter2[1]                            ; Stuck at GND due to stuck port data_in ;
 ; final_project_fpga:final_project_fpga|counter[1]                             ; Stuck at GND due to stuck port data_in ;
 ; final_project_fpga:final_project_fpga|read_y_cr_cb:read_y_cr_cb|pixel[8..15] ; Lost fanout                            ;
 ; final_project_fpga:final_project_fpga|read_y_cr_cb:read_y_cr_cb|d2[0..7]     ; Lost fanout                            ;
-; Total Number of Removed Registers = 17                                       ;                                        ;
+; Total Number of Removed Registers = 18                                       ;                                        ;
 +------------------------------------------------------------------------------+----------------------------------------+
 
 
@@ -300,7 +301,7 @@ The IP Core highlighted in red is outdated. Regenerate the outdated IP with the 
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 67    ;
+; Total registers                              ; 69    ;
 ; Number of registers using Synchronous Clear  ; 40    ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -326,7 +327,7 @@ The IP Core highlighted in red is outdated. Regenerate the outdated IP with the 
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered                                                                    ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+-------------------------------------------------------------------------------+----------------------------+
 ; 4:1                ; 10 bits   ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; |vgacam|final_project_fpga:final_project_fpga|camera_controller:cam_cont|x[8] ;                            ;
-; 4:1                ; 10 bits   ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; |vgacam|final_project_fpga:final_project_fpga|camera_controller:cam_cont|y[2] ;                            ;
+; 4:1                ; 10 bits   ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; |vgacam|final_project_fpga:final_project_fpga|camera_controller:cam_cont|y[7] ;                            ;
 +--------------------+-----------+---------------+----------------------+------------------------+-------------------------------------------------------------------------------+----------------------------+
 
 
@@ -1258,7 +1259,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 12.0 Build 178 05/31/2012 SJ Web Edition
-    Info: Processing started: Wed Dec 03 00:37:22 2014
+    Info: Processing started: Fri Dec 05 01:15:25 2014
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off vgacam -c vgacam
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 3 design units, including 3 entities, in source file finalcamera.sv
@@ -1273,10 +1274,10 @@ Info (12021): Found 1 design units, including 1 entities, in source file pll.v
     Info (12023): Found entity 1: pll
 Info (12021): Found 1 design units, including 1 entities, in source file ram.v
     Info (12023): Found entity 1: RAM
-Warning (10236): Verilog HDL Implicit Net warning at vga.sv(14): created implicit net for "areset_sig"
-Warning (10236): Verilog HDL Implicit Net warning at vga.sv(15): created implicit net for "inclk0_sig"
-Warning (10236): Verilog HDL Implicit Net warning at vga.sv(16): created implicit net for "c0_sig"
-Warning (10236): Verilog HDL Implicit Net warning at vga.sv(17): created implicit net for "locked_sig"
+Warning (10236): Verilog HDL Implicit Net warning at vga.sv(15): created implicit net for "areset_sig"
+Warning (10236): Verilog HDL Implicit Net warning at vga.sv(16): created implicit net for "inclk0_sig"
+Warning (10236): Verilog HDL Implicit Net warning at vga.sv(17): created implicit net for "c0_sig"
+Warning (10236): Verilog HDL Implicit Net warning at vga.sv(18): created implicit net for "locked_sig"
 Info (12127): Elaborating entity "vgacam" for the top level hierarchy
 Info (12128): Elaborating entity "pll" for hierarchy "pll:pll_inst"
 Info (12128): Elaborating entity "altpll" for hierarchy "pll:pll_inst|altpll:altpll_component"
@@ -1341,11 +1342,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/pll_
     Info (12023): Found entity 1: pll_altpll
 Info (12128): Elaborating entity "pll_altpll" for hierarchy "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated"
 Info (12128): Elaborating entity "final_project_fpga" for hierarchy "final_project_fpga:final_project_fpga"
-Warning (10036): Verilog HDL or VHDL warning at finalcamera.sv(9): object "Ycounter" assigned a value but never read
 Info (12128): Elaborating entity "read_y_cr_cb" for hierarchy "final_project_fpga:final_project_fpga|read_y_cr_cb:read_y_cr_cb"
 Info (12128): Elaborating entity "camera_controller" for hierarchy "final_project_fpga:final_project_fpga|camera_controller:cam_cont"
-Warning (10230): Verilog HDL assignment warning at finalcamera.sv(56): truncated value with size 32 to match size of target (10)
-Warning (10230): Verilog HDL assignment warning at finalcamera.sv(61): truncated value with size 32 to match size of target (10)
 Info (12128): Elaborating entity "vgaController" for hierarchy "vgaController:vgaCont"
 Info (12128): Elaborating entity "RAM" for hierarchy "RAM:RAM_inst"
 Info (12128): Elaborating entity "altsyncram" for hierarchy "RAM:RAM_inst|altsyncram:altsyncram_component"
@@ -1422,16 +1420,18 @@ Info (286030): Timing-Driven Synthesis is running
 Info (17049): 16 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 248 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 11 input pins
-    Info (21059): Implemented 37 output pins
-    Info (21061): Implemented 167 logic cells
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "capture"
+Info (21057): Implemented 252 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 12 input pins
+    Info (21059): Implemented 38 output pins
+    Info (21061): Implemented 169 logic cells
     Info (21064): Implemented 32 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 45 warnings
-    Info: Peak virtual memory: 339 megabytes
-    Info: Processing ended: Wed Dec 03 00:37:25 2014
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 44 warnings
+    Info: Peak virtual memory: 344 megabytes
+    Info: Processing ended: Fri Dec 05 01:15:34 2014
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:05
 
 

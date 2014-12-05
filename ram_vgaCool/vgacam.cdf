@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP3C5E144) Path("C:/Users/aschiller/Desktop/ram_vga3/") File("vgacam.sof") MfrSpec(OpMask(1));
+		Device PartName(EP3C5E144) Path("H:/microps_final_project/microps/ram_vgaCool/") File("vgacam.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

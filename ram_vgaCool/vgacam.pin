@@ -136,7 +136,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : 65        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : 66        :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 67        :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 68        :        :                   :         : 4         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 69        :        :                   :         : 4         :                
+poopen                       : 69        : output : 2.5 V             :         : 4         : Y              
 xclk                         : 70        : output : 2.5 V             :         : 4         : Y              
 href                         : 71        : input  : 2.5 V             :         : 4         : Y              
 vref                         : 72        : input  : 2.5 V             :         : 4         : Y              
@@ -147,7 +147,7 @@ digital[7]                   : 76        : input  : 2.5 V             :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : 77        :        :                   :         : 5         :                
 VCCINT                       : 78        : power  :                   : 1.2V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 79        :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 80        :        :                   :         : 5         :                
+capture                      : 80        : input  : 2.5 V             :         : 5         : Y              
 VCCIO5                       : 81        : power  :                   : 2.5V    : 5         :                
 GND                          : 82        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 83        :        :                   :         : 5         :                

@@ -1,6 +1,6 @@
 EDA Netlist Writer report for vgacam
-Fri Nov 21 23:27:14 2014
-Quartus II 32-bit Version 12.0 Build 178 05/31/2012 SJ Web Edition
+Sun Nov 30 16:09:18 2014
+Quartus II 64-Bit Version 11.0 Build 157 04/27/2011 SJ Full Version
 
 
 ---------------------
@@ -17,7 +17,7 @@ Quartus II 32-bit Version 12.0 Build 178 05/31/2012 SJ Web Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2012 Altera Corporation
+Copyright (C) 1991-2011 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Nov 21 23:27:14 2014 ;
+; EDA Netlist Writer Status ; Successful - Sun Nov 30 16:09:18 2014 ;
 ; Revision Name             ; vgacam                                ;
 ; Top-level Entity Name     ; vgacam                                ;
 ; Family                    ; Cyclone III                           ;
@@ -66,42 +66,43 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------------+
 
 
-+--------------------------------------------------------------------------+
-; Simulation Generated Files                                               ;
-+--------------------------------------------------------------------------+
-; Generated Files                                                          ;
-+--------------------------------------------------------------------------+
-; H:/lab7_mps/lab7/vga/simulation/modelsim/vgacam_8_1200mv_85c_slow.svo    ;
-; H:/lab7_mps/lab7/vga/simulation/modelsim/vgacam_8_1200mv_0c_slow.svo     ;
-; H:/lab7_mps/lab7/vga/simulation/modelsim/vgacam_min_1200mv_0c_fast.svo   ;
-; H:/lab7_mps/lab7/vga/simulation/modelsim/vgacam.svo                      ;
-; H:/lab7_mps/lab7/vga/simulation/modelsim/vgacam_8_1200mv_85c_v_slow.sdo  ;
-; H:/lab7_mps/lab7/vga/simulation/modelsim/vgacam_8_1200mv_0c_v_slow.sdo   ;
-; H:/lab7_mps/lab7/vga/simulation/modelsim/vgacam_min_1200mv_0c_v_fast.sdo ;
-; H:/lab7_mps/lab7/vga/simulation/modelsim/vgacam_v.sdo                    ;
-+--------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                    ;
++-----------------------------------------------------------------------------------------------+
+; Generated Files                                                                               ;
++-----------------------------------------------------------------------------------------------+
+; H:/microps_final_project/microps/lab7/vga/simulation/modelsim/vgacam_8_1200mv_85c_slow.svo    ;
+; H:/microps_final_project/microps/lab7/vga/simulation/modelsim/vgacam_8_1200mv_0c_slow.svo     ;
+; H:/microps_final_project/microps/lab7/vga/simulation/modelsim/vgacam_min_1200mv_0c_fast.svo   ;
+; H:/microps_final_project/microps/lab7/vga/simulation/modelsim/vgacam.svo                      ;
+; H:/microps_final_project/microps/lab7/vga/simulation/modelsim/vgacam_8_1200mv_85c_v_slow.sdo  ;
+; H:/microps_final_project/microps/lab7/vga/simulation/modelsim/vgacam_8_1200mv_0c_v_slow.sdo   ;
+; H:/microps_final_project/microps/lab7/vga/simulation/modelsim/vgacam_min_1200mv_0c_v_fast.sdo ;
+; H:/microps_final_project/microps/lab7/vga/simulation/modelsim/vgacam_v.sdo                    ;
++-----------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
 ; EDA Netlist Writer Messages ;
 +-----------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 32-bit EDA Netlist Writer
-    Info: Version 12.0 Build 178 05/31/2012 SJ Web Edition
-    Info: Processing started: Fri Nov 21 23:27:12 2014
+Info: Running Quartus II 64-Bit EDA Netlist Writer
+    Info: Version 11.0 Build 157 04/27/2011 SJ Full Version
+    Info: Processing started: Sun Nov 30 16:09:14 2014
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off vgacam -c vgacam
-Info (204019): Generated file vgacam_8_1200mv_85c_slow.svo in folder "H:/lab7_mps/lab7/vga/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file vgacam_8_1200mv_0c_slow.svo in folder "H:/lab7_mps/lab7/vga/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file vgacam_min_1200mv_0c_fast.svo in folder "H:/lab7_mps/lab7/vga/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file vgacam.svo in folder "H:/lab7_mps/lab7/vga/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file vgacam_8_1200mv_85c_v_slow.sdo in folder "H:/lab7_mps/lab7/vga/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file vgacam_8_1200mv_0c_v_slow.sdo in folder "H:/lab7_mps/lab7/vga/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file vgacam_min_1200mv_0c_v_fast.sdo in folder "H:/lab7_mps/lab7/vga/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file vgacam_v.sdo in folder "H:/lab7_mps/lab7/vga/simulation/modelsim/" for EDA simulation tool
-Info: Quartus II 32-bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 295 megabytes
-    Info: Processing ended: Fri Nov 21 23:27:14 2014
-    Info: Elapsed time: 00:00:02
+Info: Generated simulation netlist will be non-hierarchical because the design has SignalTap II partitions, termination control logic and/or a design partition that contains bidirectional ports
+Info: Generated file vgacam_8_1200mv_85c_slow.svo in folder "H:/microps_final_project/microps/lab7/vga/simulation/modelsim/" for EDA simulation tool
+Info: Generated file vgacam_8_1200mv_0c_slow.svo in folder "H:/microps_final_project/microps/lab7/vga/simulation/modelsim/" for EDA simulation tool
+Info: Generated file vgacam_min_1200mv_0c_fast.svo in folder "H:/microps_final_project/microps/lab7/vga/simulation/modelsim/" for EDA simulation tool
+Info: Generated file vgacam.svo in folder "H:/microps_final_project/microps/lab7/vga/simulation/modelsim/" for EDA simulation tool
+Info: Generated file vgacam_8_1200mv_85c_v_slow.sdo in folder "H:/microps_final_project/microps/lab7/vga/simulation/modelsim/" for EDA simulation tool
+Info: Generated file vgacam_8_1200mv_0c_v_slow.sdo in folder "H:/microps_final_project/microps/lab7/vga/simulation/modelsim/" for EDA simulation tool
+Info: Generated file vgacam_min_1200mv_0c_v_fast.sdo in folder "H:/microps_final_project/microps/lab7/vga/simulation/modelsim/" for EDA simulation tool
+Info: Generated file vgacam_v.sdo in folder "H:/microps_final_project/microps/lab7/vga/simulation/modelsim/" for EDA simulation tool
+Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 294 megabytes
+    Info: Processing ended: Sun Nov 30 16:09:18 2014
+    Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:02
 
 

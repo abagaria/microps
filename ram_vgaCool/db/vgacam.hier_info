@@ -11,6 +11,7 @@ digital[5] => digital[5].IN1
 digital[6] => digital[6].IN1
 digital[7] => digital[7].IN1
 xclk <= xclk.DB_MAX_OUTPUT_PORT_TYPE
+poopen <= wren.DB_MAX_OUTPUT_PORT_TYPE
 vgaclk <= vgaclk.DB_MAX_OUTPUT_PORT_TYPE
 hsync <= vgaController:vgaCont.port1
 vsync <= vgaController:vgaCont.port2
@@ -47,6 +48,7 @@ grey[4] <= videoGen:videoGen.port2
 grey[5] <= videoGen:videoGen.port2
 grey[6] <= videoGen:videoGen.port2
 grey[7] <= videoGen:videoGen.port2
+capture => capture.IN1
 
 
 |vgacam|pll:pll_inst
@@ -210,7 +212,9 @@ locked <= locked.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |vgacam|final_project_fpga:final_project_fpga
-clk => clk.IN1
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => xclk~reg0.CLK
 href => href.IN2
 vref => vref.IN2
 digital[0] => digital[0].IN1
@@ -254,6 +258,7 @@ wraddr[12] <= camera_controller:cam_cont.port3
 wraddr[13] <= camera_controller:cam_cont.port3
 wraddr[14] <= camera_controller:cam_cont.port3
 wren <= camera_controller:cam_cont.port4
+capture => ~NO_FANOUT~
 
 
 |vgacam|final_project_fpga:final_project_fpga|read_y_cr_cb:read_y_cr_cb
@@ -319,28 +324,28 @@ pixel[15] <= pixel[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |vgacam|final_project_fpga:final_project_fpga|camera_controller:cam_cont
-pclk => oldhref.CLK
-pclk => firstVref.CLK
-pclk => x[0].CLK
-pclk => x[1].CLK
-pclk => x[2].CLK
-pclk => x[3].CLK
-pclk => x[4].CLK
-pclk => x[5].CLK
-pclk => x[6].CLK
-pclk => x[7].CLK
-pclk => x[8].CLK
-pclk => x[9].CLK
-pclk => y[0].CLK
-pclk => y[1].CLK
-pclk => y[2].CLK
-pclk => y[3].CLK
-pclk => y[4].CLK
-pclk => y[5].CLK
-pclk => y[6].CLK
-pclk => y[7].CLK
-pclk => y[8].CLK
-pclk => y[9].CLK
+dataclk => oldhref.CLK
+dataclk => firstVref.CLK
+dataclk => x[0].CLK
+dataclk => x[1].CLK
+dataclk => x[2].CLK
+dataclk => x[3].CLK
+dataclk => x[4].CLK
+dataclk => x[5].CLK
+dataclk => x[6].CLK
+dataclk => x[7].CLK
+dataclk => x[8].CLK
+dataclk => x[9].CLK
+dataclk => y[0].CLK
+dataclk => y[1].CLK
+dataclk => y[2].CLK
+dataclk => y[3].CLK
+dataclk => y[4].CLK
+dataclk => y[5].CLK
+dataclk => y[6].CLK
+dataclk => y[7].CLK
+dataclk => y[8].CLK
+dataclk => y[9].CLK
 href => always0.IN1
 href => x.OUTPUTSELECT
 href => x.OUTPUTSELECT

@@ -1,6 +1,6 @@
 Assembler report for vgacam
-Fri Nov 21 23:27:02 2014
-Quartus II 32-bit Version 12.0 Build 178 05/31/2012 SJ Web Edition
+Sun Nov 30 16:08:57 2014
+Quartus II 64-Bit Version 11.0 Build 157 04/27/2011 SJ Full Version
 
 
 ---------------------
@@ -10,7 +10,7 @@ Quartus II 32-bit Version 12.0 Build 178 05/31/2012 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: H:/lab7_mps/lab7/vga/vgacam.sof
+  5. Assembler Device Options: H:/microps_final_project/microps/lab7/vga/vgacam.sof
   6. Assembler Messages
 
 
@@ -18,7 +18,7 @@ Quartus II 32-bit Version 12.0 Build 178 05/31/2012 SJ Web Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2012 Altera Corporation
+Copyright (C) 1991-2011 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Nov 21 23:27:02 2014 ;
+; Assembler Status      ; Successful - Sun Nov 30 16:08:57 2014 ;
 ; Revision Name         ; vgacam                                ;
 ; Top-level Entity Name ; vgacam                                ;
 ; Family                ; Cyclone III                           ;
@@ -77,40 +77,40 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+---------------------------------+
-; Assembler Generated Files       ;
-+---------------------------------+
-; File Name                       ;
-+---------------------------------+
-; H:/lab7_mps/lab7/vga/vgacam.sof ;
-+---------------------------------+
++------------------------------------------------------+
+; Assembler Generated Files                            ;
++------------------------------------------------------+
+; File Name                                            ;
++------------------------------------------------------+
+; H:/microps_final_project/microps/lab7/vga/vgacam.sof ;
++------------------------------------------------------+
 
 
-+-----------------------------------------------------------+
-; Assembler Device Options: H:/lab7_mps/lab7/vga/vgacam.sof ;
-+----------------+------------------------------------------+
-; Option         ; Setting                                  ;
-+----------------+------------------------------------------+
-; Device         ; EP3C5E144C8                              ;
-; JTAG usercode  ; 0xFFFFFFFF                               ;
-; Checksum       ; 0x0009DC43                               ;
-+----------------+------------------------------------------+
++--------------------------------------------------------------------------------+
+; Assembler Device Options: H:/microps_final_project/microps/lab7/vga/vgacam.sof ;
++----------------+---------------------------------------------------------------+
+; Option         ; Setting                                                       ;
++----------------+---------------------------------------------------------------+
+; Device         ; EP3C5E144C8                                                   ;
+; JTAG usercode  ; 0xFFFFFFFF                                                    ;
+; Checksum       ; 0x0009DBC3                                                    ;
++----------------+---------------------------------------------------------------+
 
 
 +--------------------+
 ; Assembler Messages ;
 +--------------------+
 Info: *******************************************************************
-Info: Running Quartus II 32-bit Assembler
-    Info: Version 12.0 Build 178 05/31/2012 SJ Web Edition
-    Info: Processing started: Fri Nov 21 23:27:00 2014
+Info: Running Quartus II 64-Bit Assembler
+    Info: Version 11.0 Build 157 04/27/2011 SJ Full Version
+    Info: Processing started: Sun Nov 30 16:08:53 2014
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off vgacam -c vgacam
-Info (115031): Writing out detailed assembly data for power analysis
-Info (115030): Assembler is generating device programming files
-Info: Quartus II 32-bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 317 megabytes
-    Info: Processing ended: Fri Nov 21 23:27:02 2014
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+Info: Writing out detailed assembly data for power analysis
+Info: Assembler is generating device programming files
+Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 316 megabytes
+    Info: Processing ended: Sun Nov 30 16:08:57 2014
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 

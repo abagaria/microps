@@ -1,13 +1,13 @@
-Fitter Status : Successful - Fri Nov 21 23:26:56 2014
-Quartus II 32-bit Version : 12.0 Build 178 05/31/2012 SJ Web Edition
+Fitter Status : Successful - Sun Nov 30 16:08:48 2014
+Quartus II 64-Bit Version : 11.0 Build 157 04/27/2011 SJ Full Version
 Revision Name : vgacam
 Top-level Entity Name : vgacam
 Family : Cyclone III
 Device : EP3C5E144C8
 Timing Models : Final
-Total logic elements : 61 / 5,136 ( 1 % )
+Total logic elements : 64 / 5,136 ( 1 % )
     Total combinational functions : 52 / 5,136 ( 1 % )
-    Dedicated logic registers : 44 / 5,136 ( < 1 % )
+    Dedicated logic registers : 44 / 5,136 ( 1 % )
 Total registers : 44
 Total pins : 40 / 95 ( 42 % )
 Total virtual pins : 0

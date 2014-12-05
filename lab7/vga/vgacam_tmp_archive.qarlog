@@ -1,29 +1,29 @@
-Quartus II Archive log --	H:/lab7_mps/lab7/vga/vgacam_tmp_archive.qarlog
+Quartus II Archive log --	H:/microps_final_project/microps/lab7/vga/vgacam_tmp_archive.qarlog
 
-Archive:	H:/lab7_mps/lab7/vga/vgacam_tmp_archive.qar
-Date:		Sat Nov 22 20:30:20 2014
-Quartus II 32-bit		12.0 Build 178 05/31/2012 SJ Web Edition
+Archive:	H:/microps_final_project/microps/lab7/vga/vgacam_tmp_archive.qar
+Date:		Sun Nov 30 16:13:13 2014
+Quartus II 64-Bit		11.0 Build 157 04/27/2011 SJ Full Version
 
 	=========== Files Selected: ===========
-H:/lab7_mps/lab7/vga/charrom.txt
-H:/lab7_mps/lab7/vga/finalcamera.sv
-H:/lab7_mps/lab7/vga/incremental_db/compiled_partitions/vgacam.db_info
-H:/lab7_mps/lab7/vga/pll.ppf
-H:/lab7_mps/lab7/vga/pll.qip
-H:/lab7_mps/lab7/vga/pll.v
-H:/lab7_mps/lab7/vga/pll_bb.v
-H:/lab7_mps/lab7/vga/pll_inst.v
-H:/lab7_mps/lab7/vga/vga.sv
-H:/lab7_mps/lab7/vga/vgacam.qpf
-H:/lab7_mps/lab7/vga/vgacam.qsf
-c:/altera/12.0/quartus/bin/assignment_defaults.qdf
+H:/microps_final_project/microps/lab7/vga/charrom.txt
+H:/microps_final_project/microps/lab7/vga/finalcamera.sv
+H:/microps_final_project/microps/lab7/vga/incremental_db/compiled_partitions/vgacam.db_info
+H:/microps_final_project/microps/lab7/vga/pll.ppf
+H:/microps_final_project/microps/lab7/vga/pll.qip
+H:/microps_final_project/microps/lab7/vga/pll.v
+H:/microps_final_project/microps/lab7/vga/pll_bb.v
+H:/microps_final_project/microps/lab7/vga/pll_inst.v
+H:/microps_final_project/microps/lab7/vga/vga.sv
+H:/microps_final_project/microps/lab7/vga/vgacam.qpf
+H:/microps_final_project/microps/lab7/vga/vgacam.qsf
+c:/altera/11.0/quartus/bin64/assignment_defaults.qdf
 	======= Total: 12 files to archive =======
 
 	================ Status: ===============
 All files archived successfully.
 
 
-******* Archived project restoration attempt on Sat Nov 22 20:30:23 2014
-Source archive file:	H:/lab7_mps/lab7/vga/vgacam_tmp_archive.qar
-Archive was extracted into	H:/lab7_mps/terribleHardware/
+******* Archived project restoration attempt on Sun Nov 30 16:13:16 2014
+Source archive file:	H:/microps_final_project/microps/lab7/vga/vgacam_tmp_archive.qar
+Archive was extracted into	H:/microps_final_project/microps/lab7/vga_copy/double_buffering/
 		 - successfully.

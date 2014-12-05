@@ -4,11 +4,12 @@
 
 module vgacam(input  logic       clk, href, vref,
 			  input logic [7:0] digital,
-			  output logic xclk,
-			  output logic       vgaclk,						// 25 MHz VGA clock
+			  output logic xclk, poopen,
+			  output logic       vgaclk,				// 25 MHz VGA clock
 			  output logic       hsync, vsync, sync_b,	// to monitor & DAC
 			  output logic [7:0] r, g, b,
-			  output logic [7:0] grey);					// to video DAC
+			  output logic [7:0] grey,
+			  input logic capture);					// to video DAC
  
     pll	pll_inst (
 	.areset ( areset_sig ),
@@ -29,7 +30,7 @@ module vgacam(input  logic       clk, href, vref,
   logic wren;
   logic [14:0] wraddr;
   
-  final_project_fpga final_project_fpga(clk, href, vref, digital, xclk, pixel, wraddr, wren);
+  final_project_fpga final_project_fpga(clk, href, vref, digital, xclk, pixel, wraddr, wren, capture);
   // VGA Controller 2
 	 
   // generate monitor timing signals
@@ -37,7 +38,7 @@ module vgacam(input  logic       clk, href, vref,
   logic rden;
   logic [15:0] q;
   vgaController vgaCont(vgaclk, hsync, vsync, sync_b, rdaddr, rden);
-	
+  	
 	// Instantiate RAM module from MegaFunctions
 	RAM	RAM_inst (
 	.data ( pixel ),
@@ -50,7 +51,7 @@ module vgacam(input  logic       clk, href, vref,
 	.q ( q )
 	);
 	
-	
+	assign poopen = wren;
   // user-defined module to determine pixel color
   videoGen videoGen(q, rden, r, g, b);
   
@@ -72,7 +73,7 @@ module vgaController #(parameter HMAX   = 10'd800,
   logic [9:0] hcnt, vcnt;
   logic [9:0] x, y;
   logic       oldhsync;
-  
+    
   // counters for horizontal and vertical positions
   always @(posedge vgaclk) begin
     if (hcnt >= HMAX) hcnt = 0;
@@ -103,5 +104,5 @@ endmodule
 module videoGen(input  logic [15:0] q,
 					 input logic rden,
            		 output logic [7:0] r, g, b);
-    assign {r, g, b} = rden ? {3{q[0],q[1],q[2],q[3],q[4],q[5],q[6],q[7],}} : {8'h00, 8'h00, 8'h00}; //{3{q[7:0]}}
+    assign {r, g, b} = rden ? {3{q[0],q[1],q[2],q[3],q[4],q[5],q[6],q[7]}} : {8'h00, 8'h00, 8'h00}; //{3{q[7:0]}}
 endmodule
